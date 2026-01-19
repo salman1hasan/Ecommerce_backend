@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const User = require('../models/user');
+const User = require('../models/User');
 const { verifyToken } = require('../middleware/firebaseAuth');
 
 // Login or register user via Firebase token
